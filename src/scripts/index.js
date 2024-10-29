@@ -38,7 +38,6 @@ async function getUserData(userName) {
     };
 
     const repositoriesResponse = await getRepositories(userName);
-    console.log(repositoriesResponse);
 
     const eventsResponse = await getEvents(userName);   
     
